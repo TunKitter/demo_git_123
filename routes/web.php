@@ -24,3 +24,6 @@ Route::get('/home', function () {
 Route::get('/home2', function () {
     return 'Home2';
 });
+Route::get('contact', function () {
+    return view('welcome');
+});
