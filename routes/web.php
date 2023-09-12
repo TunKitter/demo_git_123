@@ -27,3 +27,6 @@ Route::get('/home2', function () {
 Route::get('contact', function () {
     return view('welcome');
 });
+Route::get('toan', function () {
+    return view('welcome');
+});
