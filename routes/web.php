@@ -42,7 +42,9 @@ Route::get('contact5', function () {
 Route::get('truong', function () {
     return view('welcome');
 });
-
+Route::get('contact6', function () {
+    return view('welcome');
+});
 Route::get('contact7', function () {
     return view('welcome');
 });
