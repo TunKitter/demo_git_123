@@ -48,3 +48,7 @@ Route::get('contact6', function () {
 Route::get('contact7', function () {
     return view('welcome');
 });
+
+Route::get('contact8', function () {
+    return view('welcome');
+});
